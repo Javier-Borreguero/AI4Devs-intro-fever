@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse String</title>    
+    <title>Reverse String</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <script src="script.js" defer></script>
 </head>
 <body>
-<script src="script.js"></script>
+    <h2>String Reverser</h2>
+    <input type="text" id="inputString" placeholder="Enter a string">
+    <button onclick="reverseString()">Reverse</button>
+    <p id="output"></p>
 </body>
 </html>
